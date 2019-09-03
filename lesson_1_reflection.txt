@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We can easily checkout if there is a typo or something else in the current code file and catch it easily,
+hence we can revert it back if we did any mistake.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It helps us by navigating to the version of the project at any point of time from the history and in future if we decide to
+revert to or restore the old code again, it will be easy.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros is that we 'll get more flexibility of whether to commit the change or not to save ourselves from cluttering our
+history of commits and cons would be, we need to manually take all the decisions of when to commit each time, which may
+be time consuming for some people.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because sometimes more than 1 files are interconnected and the changes made in 1 file could effect the other file/files.
+And this is very common in programming field, which is why Git allows saving multiple files in 1 commit as Repository
+to make every files arranged properly, while on the other hand, Google Docs aren't spefically made for keeping
+track of the programmers Version Control, which is why it treat each file separately as it is made up for
+that kind of situations.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    To use git log command, navigate first to the repository you've cloned,
+and now use "git log" as the command, this will print out all the commits that have been made.
+Now each commit has its own id, from which we can differentiate all the commits in Git.
+use git diff command by appending it to the 2 ids of previous one and current one(both having space in between to separate them)
+and hit enter.
+But if you are not getting colored output in lines, use the following command first:
+(Note: Getting Colored Output
+To get colored diff output, run git config --global color.ui auto )
+and now use git diff command
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Now I can restore my project's version at any point of time in the history where i have commited, whenever the current
+version of code changes introduced any bug and i became stuck finding where i did the mistake.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Will use in future for my Android studio projects because as soon as they become bigger, I feel like overwhelming passing
+the time and lost completely.
