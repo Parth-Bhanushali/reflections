@@ -21,6 +21,13 @@ to ensure we have 1 commit per logical change and with commit command, we can al
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches would be helpful when we want to add any new experimental feature and which shouldn't make any
+bad impact on our existing commits and we may want to checkout more than 1 experimental features on the basis of
+our actual project/commit.
+Branches help us by letting us make the different branch through the current master commit, in other words,
+it goes from 1 commit to more than 1 commits of experimental features. We can name the branch and checkout the same wasy we
+get to used for checking out the commits.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
