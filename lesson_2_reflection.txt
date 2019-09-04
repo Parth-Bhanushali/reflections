@@ -39,5 +39,13 @@ will help us visualize the branch structure.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	We can merge the one or more branches by checking out the branch on which base we want to merge(Note this branch
+will bydefault be merged with the specified branches of git arguments whether we put it as the argument or not).
+We use the git merge branch_name_merge to merge branches and to note that we can even pass more than 1 arguments.
+We do represent it in the diagram because after merging it with the master branch for example, master branch will
+have commit records of both its parents and all the commits now will be interleaved. After merging we can now
+delete the branches(branch is only label and it won't remove any commits yet) that were merged in the master branch for example 
+by command git branch -d branch_name.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
