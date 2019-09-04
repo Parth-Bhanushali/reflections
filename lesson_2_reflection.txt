@@ -28,7 +28,13 @@ Branches help us by letting us make the different branch through the current mas
 it goes from 1 commit to more than 1 commits of experimental features. We can name the branch and checkout the same wasy we
 get to used for checking out the commits.
 
-How do the diagrams help you visualize the branch structure?
+How do the diagrams help you visualize the branch structure?`
+
+	Sometimes, we have created an commit in the middle of any branch, that commit will not be stored in any branch,
+it will live besides of that branch. And if we now navigate to the actual branch
+and command the git log, it won't show that commit that was last made
+and didn't stored in the branch. Hence, we would not know anything clearly about that commit, thus creating the diagrams
+will help us visualize the branch structure.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
