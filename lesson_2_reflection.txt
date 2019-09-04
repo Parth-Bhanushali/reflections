@@ -49,3 +49,11 @@ by command git branch -d branch_name.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Git's automatic merging:
+Pros-
+We don't have to do it manually everytime, which will save a lot of time and user will not feel annyoing.
+Cons-
+If that happens everytime, even when the conflicts happen, and Git makes decision itself, the program may
+or may not compile and run properly everytime.
+(Note: I didn't understand what this question is asking exactly, so i am leaving answer on the middle of the way.)
