@@ -11,3 +11,12 @@ stay up-to-date with your remote repository?
     local resository and GitHub repository will have same commits history which sometimes user would not want. By manually 
     doing it will give the user more flexibility.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    Cloning from one GitHub repository to the GitHub's server is called fork.
+    clones is something like, cloning the local Git repository to the computer locally or
+    cloning the GitHub repository to the computer machine.
+    Branch is simply a label which will remember the history of commits.
+    I'll use the suitable from all depending on the situation.
+
+ 
