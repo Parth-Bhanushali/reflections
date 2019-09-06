@@ -19,4 +19,10 @@ Describe the differences between forks, clones, and branches. When would you use
     Branch is simply a label which will remember the history of commits.
     I'll use the suitable from all depending on the situation.
 
- 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    Having a copy of last known state of the remote stored locally is that even we've out from internet access for
+    sometime and made a few commits locally, now we can still differentiate the changes even without internet access.
+    Meantime, if someone updated the remote on GitHub, and you gain internet access, you can now fetch and merge
+    it with the local repository to stay in sync.
+
