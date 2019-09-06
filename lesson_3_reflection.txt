@@ -26,3 +26,10 @@ What is the benefit of having a copy of the last known state of the remote store
     Meantime, if someone updated the remote on GitHub, and you gain internet access, you can now fetch and merge
     it with the local repository to stay in sync.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    I would've collaborate by sharing the whole project via Google Drive or Dropbox or Onedrive as they'll be
+    the only options left what I know today, if there are other platforms for sharing projects, I definitely
+    don't know about that. I can't think anything easier than Git or GitHub but even Git and GitHub are not that much
+    easy nor that much difficult. I think practicing it will make me more capable of handling these platforms.
+
